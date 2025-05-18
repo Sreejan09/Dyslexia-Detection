@@ -26,7 +26,7 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ---
 
-| Feature Type                 | `C` | `gamma` | `kernel` | Accuracy (%) |
+| Feature Type\Best SVM Parameters             | `C` | `gamma` | `kernel` | Accuracy (%) |
 | ---------------------------- | --- | ------- | -------- | ------------ |
 | ⏱️ Average Fixation Duration | 10  | scale   | rbf      | **85.71**    |
 | 📊 Number of Fixations       | 0.1 | auto    | rbf      | **80.00**    |
