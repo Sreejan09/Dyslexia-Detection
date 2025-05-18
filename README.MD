@@ -11,6 +11,8 @@
 
 A machine learning project that uses fixation-based eye-tracking features to detect dyslexia.
 
+[Dataset Link](https://zenodo.org/records/13332134)
+
 ---
 
 ## 📁 Dataset Description
