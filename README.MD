@@ -19,6 +19,7 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 - **Number of Fixations**: Total fixation count per word.
 - **Average Fixation Duration**: Time spent per fixation.
+- **First Fixation Duration**: Duration of the very first fixation.
 
 ---
 
