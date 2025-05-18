@@ -26,10 +26,12 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ---
 
-### ⏱️ Average Fixation Duration  and  📊 Number of Fixations – Model Accuracies
+### ⏱️ Average Fixation Duration  – Model Accuracies
 
 #### **Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
 #### **Best SVM Accuracy**: **85.71%**
+
+### 📊 Number of Fixations - Model
 
 #### **Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
 #### **Best SVM Accuracy**: **80.00%**
