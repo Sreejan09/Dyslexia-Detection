@@ -26,33 +26,38 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ---
 
-### ⏱️ Average Fixation Duration  – Model Accuracies
+### ⏱️ Average Fixation Duration
 
 #### **Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
 #### **Best SVM Accuracy**: **85.71%**
 
-### 📊 Number of Fixations - Model
+### 📊 Number of Fixations
 
 #### **Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
 #### **Best SVM Accuracy**: **80.00%**
 
+### 📊 First Fixations Duration
+
+#### **Best SVM Params**: `{'C': 0.1, 'gamma': 'scale', 'kernel': 'rbf'}`  
+#### **Best SVM Accuracy**: **78.57%**
+
+
 ---
 
 ## 📊 Model Accuracy Comparison
-
-| Model                           | Avg. Fixation Duration Accuracy (%) | Number of Fixation Accuracy (%) |
-|--------------------------------|-------------------------------------|----------------------------------|
-| Logistic Regression            | 81.43                              | 70.00                           |
-| SVM                            | 78.57                              | 61.43                           |
-| Random Forest                  | 71.43                              | 77.14                           |
-| Ridge Classifier               | 64.29                              | 61.43                           |
-| Feature-selected Logistic Reg. | 82.86                              | 75.71                           |
-| MLP (lr=0.05)                  | 82.86                              | 55.71                           |
-| MLP (lr=0.1)                   | 77.14                              | 68.57                           |
-| MLP (lr=0.2)                   | 67.14                              | 61.43                           |
-| kNN (k=1)                      | 64.29                              | 67.14                           |
-| kNN (k=3)                      | 62.86                              | 60.00                           |
-| kNN (k=5)                      | 64.29                              | 60.00                           |
+| Model                          | Avg. Fixation Duration Accuracy (%) | Number of Fixation Accuracy (%) | First Fixation Duration Accuracy (%) |
+| ------------------------------ | ----------------------------------- | ------------------------------- | ------------------------------------ |
+| Logistic Regression            | 81.43                               | 70.00                           | 68.57                                |
+| SVM                            | 78.57                               | 61.43                           | 67.14                                |
+| Random Forest                  | 71.43                               | 77.14                           | 75.71                                |
+| Ridge Classifier               | 64.29                               | 61.43                           | 68.57                                |
+| Feature-selected Logistic Reg. | 82.86                               | 75.71                           | 75.71                                |
+| MLP (lr=0.05)                  | 82.86                               | 55.71                           | 77.14                                |
+| MLP (lr=0.1)                   | 77.14                               | 68.57                           | 75.71                                |
+| MLP (lr=0.2)                   | 67.14                               | 61.43                           | 65.71                                |
+| kNN (k=1)                      | 64.29                               | 67.14                           | 54.29                                |
+| kNN (k=3)                      | 62.86                               | 60.00                           | 54.29                                |
+| kNN (k=5)                      | 64.29                               | 60.00                           | 57.14                                |
 
 
 ###
