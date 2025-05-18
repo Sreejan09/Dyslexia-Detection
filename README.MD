@@ -17,41 +17,17 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 - **Number of Fixations**: Total fixation count per word.
 - **Average Fixation Duration**: Time spent per fixation.
-- Data from 70 subjects, processed into feature vectors of size 450.
 
 ---
 
 ## 🔧 Models & Accuracy
 
-### 📊 Number of Fixations – Model Accuracies
-
-#### 🔹 Classic ML Models
-
-| Model                             | Accuracy (%) |
-|----------------------------------|--------------|
-| Logistic Regression              | 70.00        |
-| SVM                              | 61.43        |
-| Random Forest                    | 77.14        |
-| Ridge Classifier                 | 61.43        |
-| Feature-selected Logistic Reg.   | 75.71        |
-
-#### 🔹 MLP and kNN (5-Fold CV)
-
-| Model         | Accuracy (%) |
-|---------------|--------------|
-| MLP (lr=0.05) | 55.71        |
-| MLP (lr=0.1)  | 68.57        |
-| MLP (lr=0.2)  | 61.43        |
-| kNN (k=1)     | 67.14        |
-| kNN (k=3)     | 60.00        |
-| kNN (k=5)     | 60.00        |
-
-**Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
-**Best SVM Accuracy**: **80.00%**
-
 ---
 
 ### ⏱️ Average Fixation Duration – Model Accuracies
+
+**Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
+**Best SVM Accuracy**: **85.71%**
 
 #### 🔹 MLP and kNN (5-Fold CV)
 
@@ -74,8 +50,33 @@ A machine learning project that uses fixation-based eye-tracking features to det
 | Ridge Classifier                 | 64.29        |
 | Feature-selected Logistic Reg.   | 82.86        |
 
-**Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
-**Best SVM Accuracy**: **85.71%**
+---
+
+### 📊 Number of Fixations – Model Accuracies
+
+**Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
+**Best SVM Accuracy**: **80.00%**
+
+#### 🔹 Classic ML Models
+
+| Model                             | Accuracy (%) |
+|----------------------------------|--------------|
+| Logistic Regression              | 70.00        |
+| SVM                              | 61.43        |
+| Random Forest                    | 77.14        |
+| Ridge Classifier                 | 61.43        |
+| Feature-selected Logistic Reg.   | 75.71        |
+
+#### 🔹 MLP and kNN (5-Fold CV)
+
+| Model         | Accuracy (%) |
+|---------------|--------------|
+| MLP (lr=0.05) | 55.71        |
+| MLP (lr=0.1)  | 68.57        |
+| MLP (lr=0.2)  | 61.43        |
+| kNN (k=1)     | 67.14        |
+| kNN (k=3)     | 60.00        |
+| kNN (k=5)     | 60.00        |
 
 ---
 
@@ -84,15 +85,6 @@ A machine learning project that uses fixation-based eye-tracking features to det
 - Model saved as: `voting_classifier_dyslexia.pkl`
 
 ---
-
-## 🧠 Future Work
-
-- Improve feature selection.
-- Explore Transformer-based models.
-- Extend to real-time eye-tracking data.
-
----
-
 
 
 
