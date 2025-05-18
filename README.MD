@@ -28,8 +28,8 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ### ⏱️ Average Fixation Duration – Model Accuracies
 
-**Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
-**Best SVM Accuracy**: **85.71%**
+#### **Best SVM Params**: `{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}`  
+#### **Best SVM Accuracy**: **85.71%**
 
 #### 🔹 MLP and kNN (5-Fold CV)
 
@@ -56,8 +56,8 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ### 📊 Number of Fixations – Model Accuracies
 
-**Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
-**Best SVM Accuracy**: **80.00%**
+#### **Best SVM Params**: `{'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}`  
+#### **Best SVM Accuracy**: **80.00%**
 
 #### 🔹 Classic ML Models
 
