@@ -25,6 +25,8 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ## 🔧 Models & Accuracy
 
+![alt text](image.png)
+
 ---
 
 | Feature Type\Best SVM Parameters             | `C` | `gamma` | `kernel` | Accuracy (%) |
