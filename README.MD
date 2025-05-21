@@ -29,12 +29,11 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ---
 
-| Feature Type\Best SVM Parameters             | `C` | `gamma` | `kernel` | Accuracy (%) |
-| ---------------------------- | --- | ------- | -------- | ------------ |
-| ⏱️ Average Fixation Duration | 10  | scale   | rbf      | **85.71**    |
-| 📊 Number of Fixations       | 0.1 | auto    | rbf      | **80.00**    |
-| 📍 First Fixation Duration   | 0.1 | scale   | rbf      | **78.57**    |
-
+| 🧪 Feature Type              | 🔢 Accuracy (%) | 📝 Precision (Class 1) | 🔁 Recall (Class 1) | 🎯 F1-Score (Class 1) |
+| ---------------------------- | --------------- | ---------------------- | ------------------- | --------------------- |
+| ⏱️ Average Fixation Duration | **92.86**       | 1.00                   | 0.86                | 0.92                  |
+| 📍 First Fixation Duration   | **85.71**       | 1.00                   | 0.71                | 0.83                  |
+| 📊 Number of Fixations       | **57.14**       | 0.60                   | 0.43                | 0.50                  |
 
 ---
 
