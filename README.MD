@@ -29,7 +29,7 @@ A machine learning project that uses fixation-based eye-tracking features to det
 
 ---
 
-| 🧪 Feature Type              | 🔢 Accuracy (%) | 📝 Precision (Class 1) | 🔁 Recall (Class 1) | 🎯 F1-Score (Class 1) |
+| 🧪 Voting Classifier (LR, SVM, RF)             | 🔢 Accuracy (%) | 📝 Precision (Class 1) | 🔁 Recall (Class 1) | 🎯 F1-Score (Class 1) |
 | ---------------------------- | --------------- | ---------------------- | ------------------- | --------------------- |
 | ⏱️ Average Fixation Duration | **92.86**       | 1.00                   | 0.86                | 0.92                  |
 | 📍 First Fixation Duration   | **85.71**       | 1.00                   | 0.71                | 0.83                  |
